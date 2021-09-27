@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.choicebox_controller">
+   <children>
+      <AnchorPane prefHeight="287.0" prefWidth="597.0">
+         <children>
+            <Button fx:id="btn2" layoutX="384.0" layoutY="71.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="75.0" text="submit" />
+            <DatePicker fx:id="datepicker" layoutX="39.0" layoutY="132.0" onAction="#get_date" prefHeight="20.0" prefWidth="316.0" />
+            <ChoiceBox fx:id="myChoiceBox" layoutX="39.0" layoutY="71.0" prefHeight="23.0" prefWidth="316.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
